@@ -94,7 +94,7 @@ body {
     line-height: 150%; /* 36px */
 }
 .background-photo {
-    background: url(images/my\ photo.png) center no-repeat;
+    background: url(my\ photo.png) center no-repeat;
     width: 520px;
     height: 520px;
     background-size: cover;
