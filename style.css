@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    color: #25282B;
+
+}
+body {
+    color: #25282B;
+}
+.portfolio {
+    max-width: 1440px;
+    height: 944px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header-title {
+    font-family: Comfortaa;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 180%; /* 32.4px */
+    flex-grow: 1;
+    margin: 12px 0px 12px 120px;
+}
+.link-bar {
+    /* body / 18px */
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 48px;
+    margin: 14px 120px 10px 0px;
+}
+.header-link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.header-link:hover {
+    align-self: stretch;
+    border-bottom: 2px solid #25282B;
+}
+.main {
+    display: flex;
+    gap: 88px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    max-width: 588px;
+    height: 323px;
+    align-items: flex-start;
+    gap: 32px;
+    margin-top: 143px;
+    margin-left: 120px;
+}
+.intro-button {
+    display: flex;
+}
+.button-resume {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+    font-family: Roboto;
+    padding: 8px 24px;
+    border-radius: 8px;
+    background:  #FDC435;
+    border: none;
+    cursor: pointer;
+}
+.button-resume:hover {
+    background-color: #fcd46d;
+}
+.intro-title {
+    /* title / h2 */
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px; /* 150% */
+}
+.intro-description {
+    color: #828282;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+}
+.background-photo {
+    background: url(images/my\ photo.png) center no-repeat;
+    width: 520px;
+    height: 520px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 38px;
+    margin-right: 120px;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-top: 144px;
+}
+.footer-title {
+    color: #828282;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-flex;
+}
+.icons-links {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.linkedin {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+}
+.linkedin__image {
+    width: 38px;
+    height: 38px;
+}
+.mail {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+}
+.mail__image {
+    width: 42px;
+    height: 32px;
+}
